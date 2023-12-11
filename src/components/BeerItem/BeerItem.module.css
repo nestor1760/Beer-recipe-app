@@ -1,0 +1,74 @@
+.itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 320px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.itemInfoContainer {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 300px;
+  text-align: start;
+  align-self: stretch;
+}
+
+.titleItem {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.itemDescription {
+  color: gray;
+  font-size: 14px;
+}
+
+.itemImg {
+  width: 80px;
+  height: 150px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.itemIngredients {
+  display: flex;
+  flex-wrap: wrap;  
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.itemBtn {
+  width: 120px;
+  height: 50px;
+  background: gray;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.itemBtn:hover {
+  border: 2px solid gray;
+  color: gray;
+  background: white;
+  cursor: pointer;
+}
+
+.itemBtn:active {
+  border: 4px solid gray;
+  font-weight: 700;
+}

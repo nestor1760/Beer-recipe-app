@@ -1,0 +1,32 @@
+.headerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  backdrop-filter: blur(10px); 
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 12px 30px -16px rgba(66, 68, 90, 1);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.headerBtn {
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 140px;
+  height: 30px;
+  margin-right: 30px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.headerBtn:hover {
+  font-family: Arial;
+  background: lightgray;
+  border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+.recipeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.recipeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.recipeBtnClose {
+  font-size: 18px;
+  align-self: end;
+  margin: 15px;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background: gray;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.3s;
+}
+
+.recipeBtnClose:hover {
+  background: rgb(212, 192, 192);
+  color: black;
+}
